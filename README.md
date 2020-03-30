@@ -1,1 +1,1 @@
-# Visualizing Data with Leaflet (Leaflet Level 1 - Basic Visualization)
+## Visualizing Data with Leaflet (Level 1 - Basic Visualization)
