@@ -1,8 +1,6 @@
 var queryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson"
 
-
 d3.json(queryUrl, function(data) {
-
   createFeatures(data.features);
   console.log(data.features)
 });
@@ -115,7 +113,7 @@ function createMap(earthquakes) {
   function getColor(d) {
     return d > 5 ? '#ff3333' :
            d > 4  ? '#ff6633' :
-           d > 3  ? '#ff9933' :
+           d > 3  ? '#ff8833' :
            d > 2  ? '#ffcc33' :
            d > 1  ? '#ffff33' :
                     '#ccff33';
